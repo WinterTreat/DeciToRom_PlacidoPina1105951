@@ -23,8 +23,6 @@ Criterios de Aceptación:
 •	Cri-3-1: Se pregunta al usuario dónde desea guardar la nota.
 •	Cri-4-1: Se debe confirmar la decisión del usuario.
 
-
-							
 Escenario de Pruebas:
 Sce-1-1-1:
 •	Dado que el usuario está en la aplicación de notas.
@@ -69,8 +67,6 @@ Clase de prueba (Test Class):
 •	Contiene métodos de prueba que verifican el comportamiento de unidades específicas de código.
 •	Cada método de prueba generalmente corresponde a una condición o aspecto particular que se está probando.
 
-
-
 Métodos de prueba (Test Methods):
 •	Son los métodos dentro de la clase de prueba que realizan las pruebas unitarias.
 •	Cada método de prueba debe ser independiente y probar una sola unidad de funcionalidad del código.
@@ -96,7 +92,6 @@ Framework (Marco de trabajo):
 Indique al menos tres desventajas de las pruebas unitarias automatizadas
 •	Coste y tiempo de inversión inicial
 •	Mantenimiento
-•	Limitaciones en la detección de errores
 
 Indique al menos tres ventajas de las pruebas unitarias automatizadas
 •	Detección temprana de errores
