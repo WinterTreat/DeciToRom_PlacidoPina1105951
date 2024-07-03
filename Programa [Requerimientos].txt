@@ -1,0 +1,30 @@
+Requerimientos:
+
+	Req-1: Debe convertir los numeros Arabigos del 1 al 3999 a Romanos.
+
+Criterios:
+
+	Cri-1-1: Debe rechazar entradas nulas o vacías.
+	Cri-1-2: Debe rechazar entradas no enteras.
+	Cri-1-3: Debe rechazar entradas de texto.
+	Cri-1-4: Debe rechazar entradas fuera del rango 1 -> 3999
+
+Pruebas:
+
+	Prue-1-1-1:
+		Entrada: " " | Salida: "Input cannot be null or whitespace."
+		
+	Prue-1-1-2:
+		Entrada: "a" | Salida: "Input is not a valid integer."
+		
+	Prue-1-1-3:
+		Entrada: "-1" | Salida: "Number must be between 1 and 3999."
+		
+	Prue-1-1-4:
+		Entrada: "1" | Salida: "I"
+		
+	Prue-1-1-5
+		Entrada: "10" | Salida: "X"
+		
+	Prue-1-1-6:
+		Entrada: "100" | Salida: "C"
